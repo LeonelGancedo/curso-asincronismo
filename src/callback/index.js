@@ -13,3 +13,11 @@ const saludo = (name, name2) => {
     console.log(`Hola ${name} y ${name2}`);
 }
 setTimeout(saludo, 2000, "Leo", "Pedro")
+
+const delay = (time, message) => {
+    setTimeout(() => {
+        console.log(message);
+    }, time)
+}
+
+delay(2000,"hola333")
